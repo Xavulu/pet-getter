@@ -1,5 +1,9 @@
 *.*
 !*.py 
+!*.json
+!*.png
 !requirements.txt
+!cat_names.txt 
+!dog_names.txt 
 /ENV/bin
-
+renew_api
