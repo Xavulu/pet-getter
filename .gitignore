@@ -1,6 +1,5 @@
-.env 
-.venv
-venv/
-ENV/
-env.bak/
-venv.bak/
+*.*
+!*.py 
+!requirements.txt
+/ENV/bin
+
