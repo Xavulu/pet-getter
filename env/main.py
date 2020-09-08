@@ -18,8 +18,15 @@ def breeds():
     dogs = pf.breeds('dog') 
     dog_breeds.write(json.dumps(dogs))
     dog_breeds.close() 
-    
+
+def catnames(): 
+    return "pringles"
+
+def dognames(): 
+    return "lulu"
+
 
 if __name__ == "__main__":
-    breeds()
+    breeds() 
+    print(catnames(), " ", dognames())
     pass
